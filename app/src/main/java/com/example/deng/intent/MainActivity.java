@@ -1,5 +1,6 @@
 package com.example.deng.intent;
 
+
         import android.content.ComponentName;
         import android.content.Intent;
         import android.net.Uri;
@@ -21,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         tv1= (TextView) findViewById(R.id.textview1);
     }
     public void  componentname(View v){
-
         ComponentName componentName=new ComponentName(this,IntentDemo2.class);
         Intent i1=new Intent();
         i1.setComponent(componentName);
