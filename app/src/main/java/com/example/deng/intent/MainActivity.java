@@ -1,6 +1,5 @@
 package com.example.deng.intent;
 
-
         import android.content.ComponentName;
         import android.content.Intent;
         import android.net.Uri;
